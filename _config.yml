@@ -105,10 +105,10 @@ analytics:
 
 # Site Author
 author:
-    name: "Your Name"
-    avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+    name: "Jinyoung Ko"
+    avatar: "https://instagram.ficn1-1.fna.fbcdn.net/vp/93e603c6c19fec7184244911a2d14102/5D628AA0/t51.2885-19/s150x150/46656798_280867599293594_1306662865444274176_n.jpg?_nc_ht=instagram.ficn1-1.fna.fbcdn.net" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
     bio: "I am an amazing person."
-    location: "Somewhere"
+    location: "South Korea"
     email:
     links:
         - label: "Email"
@@ -128,7 +128,7 @@ author:
           # url: "https://github.com/"
         - label: "Instagram"
           icon: "fab fa-fw fa-instagram"
-          # url: "https://instagram.com/"
+          url: "https://instagram.com/zilla_works"
 
 # Site Footer
 footer:
