@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Sequal Pro crashes when connect MySQL 8"
 date: 2019-05-28 23:40:53 +0900
 categories: SequalPro mysql8
