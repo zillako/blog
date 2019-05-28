@@ -15,12 +15,12 @@ remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale: "en-US"
-title: "Zilla's Dev Blog"
+locale: "ko-KR"
+title: "I'm Jin-Young Ko"
 title_separator: "-"
-name: "Zilla"
-description: "Zilla's dev blog."
-url: "https://kojinyoung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name: "Jinyoung Ko"
+description: "Jinyoung Ko's personal site. programming and life log."
+url: "https://tech.kojinyoung.com" # "https://kojinyoung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -76,7 +76,7 @@ google:
     search_engine_id: # YOUR_SEARCH_ENGINE_ID
     instant_search: # false (default), true
 # SEO Related
-google_site_verification:
+google_site_verification: "lw6Qkn7qxPG9t11DBB2Dd4RT6QM3ljkQ84Dm6tvEphc"
 bing_site_verification:
 yandex_site_verification:
 naver_site_verification:
@@ -105,9 +105,9 @@ analytics:
 
 # Site Author
 author:
-    name: "Jinyoung Ko"
+    name: "고진영 (Jinyoung Ko)"
     avatar: "https://instagram.ficn1-1.fna.fbcdn.net/vp/93e603c6c19fec7184244911a2d14102/5D628AA0/t51.2885-19/s150x150/46656798_280867599293594_1306662865444274176_n.jpg?_nc_ht=instagram.ficn1-1.fna.fbcdn.net" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-    bio: "I am an amazing person."
+    bio: "I'm a developer."
     location: "South Korea"
     email:
     links:
@@ -125,7 +125,7 @@ author:
           # url: "https://facebook.com/"
         - label: "GitHub"
           icon: "fab fa-fw fa-github"
-          # url: "https://github.com/"
+          url: "https://github.com/KoJinYoung"
         - label: "Instagram"
           icon: "fab fa-fw fa-instagram"
           url: "https://instagram.com/zilla_works"
@@ -148,9 +148,12 @@ footer:
         - label: "Bitbucket"
           icon: "fab fa-fw fa-bitbucket"
           # url:
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/KoJinYoung"
         - label: "Instagram"
           icon: "fab fa-fw fa-instagram"
-          # url:
+          url: "https://instagram.com/zilla_works"
 
 # Reading Files
 include:
