@@ -16,11 +16,12 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 
 # Site Settings
 locale: "ko-KR"
-title: "I'm Jin-Young Ko"
+title: "Full-Stack Dev Artist"
 title_separator: "-"
 name: "Jinyoung Ko"
-description: "Jinyoung Ko's personal site. programming and life log."
-url: "https://tech.kojinyoung.com" # "https://kojinyoung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description: "Jinyoung Ko's Portfolio."
+url: "https://kojinyoung.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+# url: "https://tech.kojinyoung.com"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -29,52 +30,52 @@ masthead_title: # overrides the website title displayed in the masthead, use " "
 # breadcrumbs            : false # true, false (default)
 words_per_minute: 200
 comments:
-    provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-    disqus:
-        shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-    discourse:
-        server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-    facebook:
-        # https://developers.facebook.com/docs/plugins/comments
-        appid:
-        num_posts: # 5 (default)
-        colorscheme: # "light" (default), "dark"
-    utterances:
-        theme: # "github-light" (default), "github-dark"
-        issue_term: # "pathname" (default)
+  provider: # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  disqus:
+    shortname: # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server: # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid:
+    num_posts: # 5 (default)
+    colorscheme: # "light" (default), "dark"
+  utterances:
+    theme: # "github-light" (default), "github-dark"
+    issue_term: # "pathname" (default)
 staticman:
-    allowedFields: # ['name', 'email', 'url', 'message']
-    branch: # "master"
-    commitMessage: # "New comment by {fields.name}"
-    filename: # comment-{@timestamp}
-    format: # "yml"
-    moderation: # true
-    path: # "/_data/comments/{options.slug}" (default)
-    requiredFields: # ['name', 'email', 'message']
-    transforms:
-        email: # "md5"
-    generatedFields:
-        date:
-            type: # "date"
-            options:
-                format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
-    endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
+  allowedFields: # ['name', 'email', 'url', 'message']
+  branch: # "master"
+  commitMessage: # "New comment by {fields.name}"
+  filename: # comment-{@timestamp}
+  format: # "yml"
+  moderation: # true
+  path: # "/_data/comments/{options.slug}" (default)
+  requiredFields: # ['name', 'email', 'message']
+  transforms:
+    email: # "md5"
+  generatedFields:
+    date:
+      type: # "date"
+      options:
+        format: # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint: # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
-    siteKey:
-    secret:
+  siteKey:
+  secret:
 atom_feed:
-    path: # blank (default) uses feed.xml
+  path: # blank (default) uses feed.xml
 search: # true, false (default)
 search_full_content: # true, false (default)
 search_provider: # lunr (default), algolia, google
 algolia:
-    application_id: # YOUR_APPLICATION_ID
-    index_name: # YOUR_INDEX_NAME
-    search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-    powered_by: # true (default), false
+  application_id: # YOUR_APPLICATION_ID
+  index_name: # YOUR_INDEX_NAME
+  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
+  powered_by: # true (default), false
 google:
-    search_engine_id: # YOUR_SEARCH_ENGINE_ID
-    instant_search: # false (default), true
+  search_engine_id: # YOUR_SEARCH_ENGINE_ID
+  instant_search: # false (default), true
 # SEO Related
 google_site_verification: "lw6Qkn7qxPG9t11DBB2Dd4RT6QM3ljkQ84Dm6tvEphc"
 bing_site_verification:
@@ -83,111 +84,108 @@ naver_site_verification:
 
 # Social Sharing
 twitter:
-    username:
+  username:
 facebook:
-    username:
-    app_id:
-    publisher:
+  username:
+  app_id:
+  publisher:
 og_image: # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-    type: # Person or Organization (defaults to Person)
-    name: # If the user or organization name differs from the site's name
-    links: # An array of links to social media profiles
+  type: # Person or Organization (defaults to Person)
+  name: # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
 
 # Analytics
 analytics:
-    provider: false # false (default), "google", "google-universal", "custom"
-    google:
-        tracking_id:
-        anonymize_ip: # true, false (default)
+  provider: false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id:
+    anonymize_ip: # true, false (default)
 
 # Site Author
 author:
-    name: "고진영 (Jinyoung Ko)"
-    avatar: "https://instagram.ficn1-1.fna.fbcdn.net/vp/93e603c6c19fec7184244911a2d14102/5D628AA0/t51.2885-19/s150x150/46656798_280867599293594_1306662865444274176_n.jpg?_nc_ht=instagram.ficn1-1.fna.fbcdn.net" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-    bio: "I'm a developer."
-    location: "South Korea"
-    email:
-    links:
-        - label: "Email"
-          icon: "fas fa-fw fa-envelope-square"
-          # url: mailto:your.name@email.com
-        - label: "Website"
-          icon: "fas fa-fw fa-link"
-          # url: "https://your-website.com"
-        - label: "Twitter"
-          icon: "fab fa-fw fa-twitter-square"
-          # url: "https://twitter.com/"
-        - label: "Facebook"
-          icon: "fab fa-fw fa-facebook-square"
-          # url: "https://facebook.com/"
-        - label: "GitHub"
-          icon: "fab fa-fw fa-github"
-          url: "https://github.com/KoJinYoung"
-        - label: "Instagram"
-          icon: "fab fa-fw fa-instagram"
-          url: "https://instagram.com/zilla_works"
+  name: "고진영 (Jinyoung Ko)"
+  avatar: "/assets/images/bio-photo.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio: "I'm a developer."
+  location: "South Korea"
+  email: "devzillako@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: mailto:devzillako@gmail.com
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      # url: "https://your-website.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/KoJinYoung"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/zilla_ko"
 
 # Site Footer
 footer:
-    links:
-        - label: "Twitter"
-          icon: "fab fa-fw fa-twitter-square"
-          # url:
-        - label: "Facebook"
-          icon: "fab fa-fw fa-facebook-square"
-          # url:
-        - label: "GitHub"
-          icon: "fab fa-fw fa-github"
-          # url:
-        - label: "GitLab"
-          icon: "fab fa-fw fa-gitlab"
-          # url:
-        - label: "Bitbucket"
-          icon: "fab fa-fw fa-bitbucket"
-          # url:
-        - label: "GitHub"
-          icon: "fab fa-fw fa-github"
-          url: "https://github.com/KoJinYoung"
-        - label: "Instagram"
-          icon: "fab fa-fw fa-instagram"
-          url: "https://instagram.com/zilla_works"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url:
+    - label: "GitLab"
+      icon: "fab fa-fw fa-gitlab"
+      # url:
+    - label: "Bitbucket"
+      icon: "fab fa-fw fa-bitbucket"
+      # url:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/KoJinYoung"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/zilla_ko"
 
 # Reading Files
 include:
-    - .htaccess
-    - _pages
+  - .htaccess
+  - _pages
 exclude:
-    - "*.sublime-project"
-    - "*.sublime-workspace"
-    - vendor
-    - .asset-cache
-    - .bundle
-    - .jekyll-assets-cache
-    - .sass-cache
-    - assets/js/plugins
-    - assets/js/_main.js
-    - assets/js/vendor
-    - Capfile
-    - CHANGELOG
-    - config
-    - Gemfile
-    - Gruntfile.js
-    - gulpfile.js
-    - LICENSE
-    - log
-    - node_modules
-    - package.json
-    - Rakefile
-    - README
-    - tmp
-    - /docs # ignore Minimal Mistakes /docs
-    - /test # ignore Minimal Mistakes /test
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
-    - .git
-    - .svn
+  - .git
+  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -200,19 +198,19 @@ incremental: false
 
 # Markdown Processing
 kramdown:
-    input: GFM
-    hard_wrap: false
-    auto_ids: true
-    footnote_nr: 1
-    entity_output: as_char
-    toc_levels: 1..6
-    smart_quotes: lsquo,rsquo,ldquo,rdquo
-    enable_coderay: false
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
 
 # Sass/SCSS
 sass:
-    sass_dir: _sass
-    style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
 permalink: /:categories/:title/
@@ -222,21 +220,21 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins (previously gems:)
 plugins:
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-gist
-    - jekyll-feed
-    - jemoji
-    - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
-    - jekyll-paginate
-    - jekyll-sitemap
-    - jekyll-gist
-    - jekyll-feed
-    - jemoji
-    - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
 
 # Archives
 #  Type
@@ -249,11 +247,11 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-    type: liquid
-    path: /categories/
+  type: liquid
+  path: /categories/
 tag_archive:
-    type: liquid
-    path: /tags/
+  type: liquid
+  path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -269,20 +267,20 @@ tag_archive:
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
-    clippings: all
-    ignore:
-        envs: development
+  clippings: all
+  ignore:
+    envs: development
 
 # Defaults
 defaults:
-    # _posts
-    - scope:
-          path: ""
-          type: posts
-      values:
-          layout: single
-          author_profile: true
-          read_time: true
-          comments: # true
-          share: true
-          related: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
