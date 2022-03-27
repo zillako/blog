@@ -1,2 +1,2 @@
-# KoJinYoung.github.io
+# zillako.github.io
 Zilla's dev blog
